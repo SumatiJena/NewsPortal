@@ -1,11 +1,10 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-export default class Spineer extends Component {
-  render() {
+const Spineer=()=> {
     return (
       <div className='text-center'>
         <img src='../images/loading.gif' alt='loading'/>
       </div>
     )
-  }
 }
+export default Spineer
